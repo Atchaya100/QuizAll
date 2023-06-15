@@ -14,7 +14,7 @@ import com.example.demo.entity.Login;
 import com.example.demo.service.LoginService;
 
 @RestController
-@CrossOrigin(origins = "http://quizfrontend.s3-website.ap-south-1.amazonaws.com")
+//@CrossOrigin(origins = "")
 public class LoginController {
 	@Autowired
 	LoginService service;
