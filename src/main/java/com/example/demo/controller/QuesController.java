@@ -15,8 +15,8 @@ import com.example.demo.entity.Questions;
 import com.example.demo.service.QuesService;
 
 @RestController
-//@CrossOrigin(origins = "http://quizfrontend.s3-website.ap-south-1.amazonaws.com")
-@CrossOrigin(origins = "http://localhost:64332")
+@CrossOrigin(origins = "http://quizfrontend.s3-website.ap-south-1.amazonaws.com")
+//@CrossOrigin(origins = "http://localhost:64332")
 public class QuesController {
 	@Autowired
 	QuesService service;
